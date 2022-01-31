@@ -4,9 +4,9 @@
 
 ## Below you will see the page of a game
 
-![alt text](https://github.com/barisdevjs/Pong-game/blob/main/screenshot1.jpg)
+![alt text](https://github.com/barisdevjs/Pong-game/blob/main/assets/screenshot1.jpg)
 
-![alt text](https://github.com/barisdevjs/Pong-game/blob/main/screenshot2.jpg)
+![alt text](https://github.com/barisdevjs/Pong-game/blob/main/assets/screenshot2.jpg)
 
 
 ---
