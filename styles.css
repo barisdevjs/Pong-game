@@ -1,0 +1,104 @@
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+
+:root {
+    --hue:160;
+    --saturation:75%;
+    --foreground-color: hsl(var(--hue), var(--saturation), 85%);
+    --background-color: hsl(var(--hue), var(--saturation), 25%);
+    --position : 50;
+    --middleHeight : 1;
+
+}
+
+/* html {
+    cursor: none;
+} */
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    overflow: hidden; /* when ball bounces from walls it prevents scroll-bars*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.paddle {
+    --position :50;
+    --height:10;
+
+    position: absolute;
+    background-color: var(--foreground-color);
+    top: calc(var(--position) * 1vh);
+    transform: translateY(-50%);
+    width:1vh;
+    height:calc(var(--height) * 1vh);
+}
+
+.paddle.left {
+    left:1vw;
+}
+
+.paddle.right {
+    right:1vw;
+}
+
+.paddle.middle {
+
+    --middle-y : 45;
+    --middle-x : 45;
+
+    width: .7vw;
+    height: 23vh;
+    transform: translate(-50%, -50%);
+    left: calc(var(--middle-x) * 1vw);
+    top: calc(var(--middle-y) * 1vh);
+}
+
+.ball {
+    --x:50;
+    --y:50;
+
+    position: absolute;
+    background-color:var(--foreground-color);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width:2.5vh;
+    height:2.5vh;
+    left: calc(var(--x) * 1vw);
+    top: calc(var(--y) * 1vh);
+}
+
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    text-align: center;
+    font-size: 7vh;
+    color: var(--foreground-color); 
+}
+
+.score > * {
+    flex-grow: auto;
+    flex-basis: 0;
+    padding: 0 2vw;
+    margin: 1vh 0;
+    opacity: .5;
+}
+
+.score > *:hover {
+    opacity: .8;
+}
+
+.score > :last-child {
+    text-align: center;
+}
+
+.score > :first-child {
+    text-align: center;
+}
+
+span:first-of-type{
+    text-align: left;
+}
