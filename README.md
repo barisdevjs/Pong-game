@@ -4,7 +4,10 @@
 
 ## Below you will see the page of a game
 
-![alt text](https://github.com/barisdevjs/space_invaders/blob/master/screenshot.jpg)
+![alt text](https://github.com/barisdevjs/Pong-game/blob/main/screenshot1.jpg)
+
+![alt text](https://github.com/barisdevjs/Pong-game/blob/main/screenshot2.jpg)
+
 
 ---
 
