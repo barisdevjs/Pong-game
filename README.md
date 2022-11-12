@@ -1,4 +1,4 @@
-# This is a Space-Invaders
+# This is a Pong GAme
 ---
 [ LIVE  Demo](https://determined-shannon-c71400.netlify.app/)
 
@@ -18,5 +18,5 @@ _ Mİddle paddle plays against both paddles according to the ball position
 - Good Luck
 ---
 
-### This game logic is build by the help of `functions , switch statement and arrays`
+### This game logic is build by the help of `Classes , getters and setters`
  
